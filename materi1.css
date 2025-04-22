@@ -1,0 +1,88 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    height: 100vh;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #1E3A5F;
+    padding: 10px 20px;
+    justify-content: right;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 20px;
+    margin-right: 76%;
+    border-radius: 50%;
+}
+
+.ul-class{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.li-class{
+    display: inline;
+}
+
+.a-navbar{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.a-navbar:hover{
+    color: rgb(0, 0, 0);
+}
+
+.a-navbar:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Pambahasan Materi */
+
+.materi{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.cont-materi{
+    font-family: "Lora", serif;
+    padding-left: 20px;
+    padding-right: 50px;
+    box-shadow: 0 0 0 1px;
+}
+.cont-materi h1{
+    text-align: center ;
+    padding-bottom: 10px;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.cont-materi p{
+    text-align: left;
+
+}
+
+.recomend{
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
