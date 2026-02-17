@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>WALABI | SMP – Materi Matematika</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel ="icon" href="walala.png" type="image/png">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global-soal.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+    <div class="brand">
+      <img src="wal1.png" alt="Logo">
+      <span>WALABI</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="sma.html" class="active">SMA</a>
+      <a href="about.html">Profile</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+  <aside class="sidebar">
+    <h4>Quick Navigation</h4>
+    <a href="#materi">Materi</a>
+    <a href="#rumus">Rumus</a>
+    <a href="#contoh">Contoh Soal</a>
+    <a href="#latihan">Soal Latihan</a>
+  </aside>
+
+  <main class="content">
+    <h1>Baris & Deret – Matematika SMP</h1>
+    <p class="intro">
+      Kamu pernah penasaran berapa bilangan yang akan muncul dalam sebuah pola bilangan acak?<br>
+      Misalnya 1,3,5,..<br>
+      Angka selanjutnya berapa ya? Yuk simak penjelasan berikut.
+    </p>
+
+    <section id="materi">
+      <h2>Materi</h2>
+      <div class="box">
+        <p>Barisan adalah daftar angka yang disusun berurutan berdasarkan pola atau aturan tertentu (misal: 2, 4, 6, 8), sedangkan deret adalah jumlah total dari suku-suku dalam barisan tersebut</p>
+        <div class="example">a = angka pertama atau suku pertama<br>b = beda antara angka pertama, kedua dan ketiga.<br>n = banyak angka dalam barisan
+        <br>U<sub>n</sub> = nilai suku ke-n<br>S<sub>n</sub> = jumlah suku ke-n<br>r = rasio U<sub>2</sub>/U<sub>1</sub>
+        </div>
+      </div>
+    </section>
+    <section id="rumus">
+      <h2>Rumus</h2>
+      <div class="box">
+        <p>Rumus Baris dan Deret Aritmatika</p>
+        <div class="example">
+            Rumus suku ke-n atau Un<br>U<sub>n</sub> = a + (n-1)b.
+        </div>
+        <div class="example">
+            Rumus suku ke-n atau Un<br>S<sub>n</sub> = n/2 (2a + (n-1)b).
+            <br> atau<br>
+            S<sub>n</sub> = n/2 (a + Un)
+        </div>
+        <br>
+        <p>Rumus Baris dan Deret Geometri</p>
+        <div class="example">
+            Rumus suku ke-n atau Un<br><p>U<sub>n</sub> = a · r<sup>n-1</sup></p>
+        </div>
+        <div class="example">
+            Rumus suku ke-n atau Un<br><p>S<sub>n</sub> = a (r<sup>n</sup> - 1) / (r - 1)</p>
+            <br> atau<br>
+            <p>S<sub>n</sub> = a (r<sup>n</sup> - 1) / (1 - r)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contoh">
+      <h2>Contoh Soal</h2>
+      <div class="box">
+        <p><strong>Soal:</strong> Diketahui suku pertama suatu barisan aritmatika adalah 3 dan beda (b) = 5. Tentukan suku ke-10 dari barisan tersebut.</p>
+        <div class="example">a = 3<br>b = 5</div>
+        <div class="example">U<sub>10</sub> = a + (n-1)b<br>U<sub>10</sub> = 3 + (10-1)5<br>U<sub>10</sub> = 3 + (9)5<br>U<sub>10</sub> = 3 + 45</div>
+        <div class="example"></strong><strong>U<sub>10</sub> = 48</strong></div>
+        <br><br>
+        <p><strong>Soal:</strong> Diketahui suku pertama suatu barisan geometri adalah 2 dan rasionya 3. Tentukan suku ke-6.</p>
+        <div class="example">a = 2<br>r = 3</div>
+        <div class="example">U<sub>n</sub> = a · r<sup>n-1</sup><br>U<sub>n</sub> = 2 · 3<sup>6-1</sup><br>U<sub>n</sub> = 2 · 3<sup>5</sup><br>U<sub>n</sub> = 2 · 243</div>
+        <div class="example"></strong><strong>U<sub>n</sub> = 486</strong></div>
+      </div>
+    </section>
+
+    <section id="latihan">
+      <h2>Soal Latihan</h2>
+      <div class="box">
+        <ol>
+          <li>Suku pertama suatu deret aritmatika adalah 4 dan bedanya 3. Tentukan jumlah 12 suku pertama (S<sub>12</sub>).</li>
+          <li>Suku pertama suatu deret geometri adalah 5 dan rasionya 2. Tentukan jumlah 8 suku pertama (S<sub>8</sub>).</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer class="footer">
+  <p>© 2025 Walabi.x.Gorn</p>
+</footer>
+
+</body>
+</html>

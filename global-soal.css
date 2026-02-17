@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fafafa;
+  color: #1f2937;
+  line-height: 1.7;
+}
+
+.navbar {
+  background: #ffffffcc;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.brand img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.nav-links a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+}
+
+.nav-links .active {
+  color: #111827;
+}
+
+
+.page {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  padding: 40px 24px;
+}
+
+.sidebar {
+  width: 260px;
+  position: sticky;
+  top: 100px;
+  height: max-content;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.sidebar h4 {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: #374151;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.sidebar a:hover {
+  font-weight: 500;
+}
+
+
+.content {
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.intro {
+  max-width: 700px;
+  color: #4b5563;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 64px;
+  scroll-margin-top: 100px;
+}
+
+section h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+
+.box {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px;
+  margin-top: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.example {
+  background: #f9fafb;
+  border-left: 4px solid #1f2937;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 40px 24px;
+  text-align: center;
+  color: #6b7280;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .content h1 {
+    font-size: 28px;
+  }
+}

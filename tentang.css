@@ -1,0 +1,99 @@
+/* ABOUT HERO */
+.about-hero {
+  padding: 100px 24px 60px;
+  background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+}
+
+.about-hero-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.about-hero p {
+  font-size: 16px;
+  color: #4b5563;
+  max-width: 520px;
+  margin: auto;
+}
+
+/* ABOUT CONTENT */
+.about-content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 24px;
+  display: grid;
+  gap: 40px;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+}
+
+.about-card h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.about-card p {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+/* VALUES */
+.about-values {
+  background: #f9fafb;
+  padding: 80px 24px;
+}
+
+.about-values h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.values-grid {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
+}
+
+.value-item {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.value-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.value-item p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* RESPONSIVE */
+@media (max-width: 640px) {
+  .about-hero h1 {
+    font-size: 32px;
+  }
+
+  .about-card {
+    padding: 28px;
+  }
+}
